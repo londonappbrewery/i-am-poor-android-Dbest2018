@@ -7,6 +7,25 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.londonappbrewery.iampoor.MainActivity">
+    tools:context="com.londonappbrewery.iampoor.MainActivity"
+    android:background="#AEA7A7">
 
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="casual"
+        android:text="@string/message"
+        android:textColor="#000000"
+        android:textSize="40sp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/content_description"
+        android:src="@drawable/coal" />
 </RelativeLayout>
